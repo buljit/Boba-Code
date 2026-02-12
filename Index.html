@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi — Vorsprung durch Technik</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* simplified, less polished styles */
+        body { margin:0; font-family: Arial, Helvetica, sans-serif; background: #fff; color:#111; }
+        header{ display:flex; align-items:center; justify-content:space-between; padding:0.75rem 1rem; border-bottom:1px solid #ddd; background:#f9f9f9; }
+        header h1{ margin:0; font-size:1rem; }
+        header img{ height:36px; }
+        .container{ max-width:800px; margin:1rem auto; padding:0 1rem; }
+        .hero{ padding:1rem; border:1px solid #eee; background:#fff; display:block; }
+        .hero h2{ margin:0 0 0.5rem 0; font-size:1.25rem; }
+        .hero p{ margin:0 0 0.5rem 0; color:#666; }
+        a.cta{ color:#0077cc; text-decoration:underline; font-weight:normal; }
+        .image-wrap{ margin-top:0.5rem; text-align:center; }
+        .image-wrap img{ max-width:320px; height:auto; border:1px solid #ddd; }
+        section{ margin-top:1rem }
+        .models{ display:block; margin-top:0.75rem }
+        .card{ border:1px solid #eee; padding:0.75rem; margin-bottom:0.6rem; background:#fff }
+        .card h3{ margin:0 0 0.4rem 0; font-size:1rem }
+        .card p{ margin:0; color:#666; font-size:0.95rem }
+        footer{ margin-top:1rem; padding:1rem 0; text-align:center; color:#777; font-size:0.9rem }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Audi (kinda)</h1>
+        <img src="rs7.png" alt="Audi image" />
+    </header>
+    <main class="container">
+        <section class="hero" aria-labelledby="hero-title">
+            <div>
+                <h2 id="hero-title">Audi Stuff</h2>
+                <p>Cars. Some are fast. Some are comfy. We like engines and lights.</p>
+                <a class="cta" href="#models">See models</a>
+            </div>
+            <div class="image-wrap">
+                <img src="rs7.png" alt="Audi RS7 front angle" />
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Audi</h2>
+            <p>Founded on innovation and a passion for driving, Audi combines performance with elegant design. From everyday comfort to high-performance sport models, Audi's craftsmanship focuses on technology, quality, and the driving experience.</p>
+        </section>
+
+        <section id="models">
+            <h2>Model Highlights</h2>
+            <div class="models">
+                <div class="card">
+                    <h3>Audi A4</h3>
+                    <p>Luxury compact sedan with advanced driver assistance and efficient powertrains.</p>
+                </div>
+                <div class="card">
+                    <h3>Audi Q5</h3>
+                    <p>Versatile SUV offering comfort, cargo space, and confident handling for daily life.</p>
+                </div>
+                <div class="card">
+                    <h3>Audi RS7</h3>
+                    <p>High-performance sportback that blends exhilarating power with elegant design.</p>
+                </div>
+                <div class="card">
+                    <h3>Audi e-tron GT</h3>
+                    <p>All-electric grand tourer delivering instant torque, beautiful proportions, and sustainable performance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Audi — Vorsprung durch Technik</p>
+    </footer>
+</body>
+</html>
